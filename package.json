@@ -1,0 +1,19 @@
+{
+  "name": "seqex1",
+  "version": "1.0.0",
+  "description": "example for sequelize using mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "api,mysql,sequelize"
+  },
+  "author": "nithya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
