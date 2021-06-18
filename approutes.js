@@ -12,7 +12,7 @@ module.exports = app => {
 
     router.put("/:id", category.update);
 
-    //router.post("/",category.create);
+    router.post("/",category.create);
   
   
     app.use('/api/category', router);
