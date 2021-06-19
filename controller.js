@@ -66,7 +66,7 @@ exports.findAll = (req,res)=>
 
 
 
-exports.create = (req,res)=>
+/*exports.create = (req,res)=>
 {
   console.log("request"+req.body.category_id);
 
@@ -90,7 +90,7 @@ exports.create = (req,res)=>
       message:"error in creating new category"
     });
   });
-};
+};*/
 
 
 
